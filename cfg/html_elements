@@ -1,0 +1,313 @@
+//C++ style comments are here!
+//Comment line begins with two common slashes
+
+//There are html elements parser is going to work with
+//If you want to add some just follow the format:
+// 1.name of the element;tag format{inline | block};closed tag{required | forbidden}
+// 2.allowed attribures
+// 3.allowed children (only if closed tag is required)
+//Please note that all values must be lowercase!
+
+a;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style accesskey shape href id title charset rev rel onfocus type onblur hreflang class lang name xml:lang coords dir tabindex target
+text samp abbr code object sup kbd button br strong select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+abbr;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+acronym;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+address;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+area;inline;forbidden
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style accesskey shape href alt id title onfocus onblur nohref class lang xml:lang coords dir tabindex
+
+b;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+base;inline;forbidden
+href id
+
+
+
+bdo;block;required
+//Im comment
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+big;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+blockquote;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style class lang title id xml:lang cite dir 
+h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset script ins form del noscript
+
+body;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style onunload class lang onload title id xml:lang dir
+h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset script ins form del noscript img
+
+br;inline;forbidden
+style title id class
+
+button;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style accesskey disabled id title onfocus type onblur class lang name value xml:lang dir tabindex 
+text samp abbr code ins h2 del object em sup h4 tt script map br strong h3 div h5 cite dl table q address dfn var ul span pre blockquote p hr h1 sub bdo big noscript h6 ol i img b acronym small kbd
+
+caption;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+cite;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+code;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+col;inline;forbidden
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style char id span title width valign charoff class lang align xml:lang dir 
+
+colgroup;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style char id span title width valign charoff class lang align xml:lang dir 
+col
+
+dd;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset form del script map ins bdo noscript
+
+del;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style datetime class lang title id xml:lang cite dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset form del script map ins bdo noscript
+
+//And I
+
+dfn;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+div;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset form del script map ins bdo noscript
+
+dl;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+dt dd
+
+dt;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+em;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+//Im too
+
+fieldset;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset form del script map ins legend bdo noscript
+
+form;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style onreset accept accept-charset id title method onsubmit class enctype lang xml:lang action dir 
+h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset noscript script ins del
+
+h1;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+h2;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+h3;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+h4;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+h5;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+h6;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+head;block;required
+lang profile xml:lang id dir 
+meta style script object link title
+
+hr;inline;forbidden
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+
+html;block;required
+lang xml:lang id dir xmlns 
+head body
+
+i;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+img;inline;forbidden
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style usemap alt id title ismap width height class lang src xml:lang longdesc dir
+
+input;inline;forbidden
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style accesskey accept disabled usemap alt type onchange id size checked title readonly onselect onfocus typeonblur class lang src name value xml:lang maxlength dir tabindex 
+
+ins;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style datetime class lang title id xml:lang cite dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset form del script map ins bdo noscript
+
+kbd;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+label;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style onblur accesskey class lang for title id xml:lang onfocus dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+legend;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style accesskey class lang title id xml:lang dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+li;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset form del script map ins bdo noscript
+
+link;inline;forbidden
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style href id title media charset rev type rel hreflang class lang xml:lang dir 
+
+map;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style class lang name title id xml:lang dir 
+h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset script ins form del noscript area
+
+meta;inline;forbidden
+lang name content xml:lang http-equiv scheme id dir charset property
+
+noscript;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset script ins form del noscript
+
+object;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style classid usemap codetype id title archive width type codebase height data class lang name standbyxml:lang declare dir tabindex 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset form del script map ins param bdo noscript
+
+ol;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+li
+
+optgroup;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style disabled id class lang title label xml:lang dir 
+option
+
+option;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style disabled id class lang title selected value label xml:lang dir 
+text
+
+p;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+param;inline;forbidden
+valuetype type id value name 
+
+pre;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick xml:space title class id style lang xml:lang dir 
+text samp abbr code sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big bi small exceptobject img script ins del bdo map
+
+q;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style class lang title id xml:lang cite dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+samp;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+script;block;required
+src defer xml:space charset type id 
+text
+
+select;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style disabled onchange id size title onfocus onblur multiple class lang name xml:lang dir tabindex 
+optgroup option
+
+small;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+span;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text div samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+strong;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir media xml:space type
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+style;block;required
+lang title media xml:space xml:lang type id dir
+text
+
+sub;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+sup;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+table;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style frame border id title width cellspacing rules cellpadding class lang summary xml:lang dir 
+caption colgroup col thead tfoot tr tbody
+
+tbody;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style char class lang title align id xml:lang valign charoff dir 
+tr
+
+td;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style colspan char id axis rowspan title valign scope charoff class lang align headers xml:lang dir abbr 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset form del script map ins bdo noscript
+
+textarea;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style accesskey cols disabled onchange id rows title readonly onselect onfocus onblur class lang namexml:lang dir tabindex 
+text
+
+tfoot;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style char class lang title align id xml:lang valign charoff dir 
+tr
+
+th;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style colspan char id axis rowspan title valign scope charoff class lang align headers xml:lang dir abbr 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small h3 pre h6 ol div ul h2 h5 blockquote h1 dl table address h4 hr p fieldset form del script map ins bdo noscript
+
+thead;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style char class lang title align id xml:lang valign charoff dir 
+tr
+
+title;inline;required
+lang xml:lang id dir 
+text
+
+tr;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style char class lang title align id xml:lang valign charoff dir 
+td th
+
+tt;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map
+
+ul;block;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir 
+li a
+
+var;inline;required
+onmouseup onmouseout onkeypress onkeydown onmousedown onmousemoveonmouseover onclick onkeyup ondblclick style lang title id xml:lang class dir
+text samp abbr code object sup kbd button br strong a select textarea cite q dfn var span em acronym label input sub tt big b i img small script ins del bdo map

@@ -1,0 +1,6 @@
+//C++ style comments are here!
+//Comment line begins with two common slashes
+
+indent=4
+length=100
+elements=examples/html_elements
